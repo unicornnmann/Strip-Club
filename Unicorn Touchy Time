@@ -1650,7 +1650,7 @@ local function getExtremelyFarPosition()
         return spawnPart.Position
     end
     
-    return Vector3.new(454.95, 54.25, -48.23) -- fallback position
+    return Vector3.new(454.95, 44.25, -48.23) -- fallback position
 end
 
 local function getAllParts(container)
@@ -1736,4 +1736,4 @@ local function insertModel(assetId)
     currentModel = model
 end
 
-insertModel(94613191055940)
+insertModel(315702380)
